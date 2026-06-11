@@ -1,0 +1,24 @@
+{
+  "name": "oop-p2-cash-register-lab",
+  "version": "1.0.0",
+  "description": "Now that we’ve discussed more about object oriented design philosophies and techniques like decorators we will be looking at building more complex objects. In this case we will be building a cash register object to simulate different functions of a cash register for an e-commerce site.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denno63/oop-p2-cash-register-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/denno63/oop-p2-cash-register-lab/issues"
+  },
+  "homepage": "https://github.com/denno63/oop-p2-cash-register-lab#readme"
+}

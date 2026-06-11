@@ -20,6 +20,10 @@ class TestCashRegister:
         assert(self.cash_register.discount == 0)
         assert(self.cash_register_with_discount.discount == 20)
 
+    def test_invalid_discount_prints_error_and_defaults_to_zero(self):
+        new_register = CashRegister("20")
+        assert(new_register.discount == 0)
+
     def test_total_attribute(self):
         '''sets an instance variable total to zero on initialization.'''
         assert(self.cash_register.total == 0)
